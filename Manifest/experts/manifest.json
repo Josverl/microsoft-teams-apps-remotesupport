@@ -5,10 +5,10 @@
   "id": "78f1b2b2-d7d8-4e10-ba68-7ad587d3a56e",
   "packageName": "com.microsoft.teams.remotesupport.experts",
   "developer": {
-    "name": "<<Developer name>>",
-    "websiteUrl": "<<WebsiteUrl>>",
-    "privacyUrl": "<<PrivacyUrl>>",
-    "termsOfUseUrl": "<<TermsOfUseUrl>>"
+    "name": "AtticWare Enterprises",
+    "websiteUrl": "https://www.AtticWare.com",
+    "privacyUrl": "https://www.AtticWare.com/Privacy.html",
+    "termsOfUseUrl": "https://www.AtticWare.com/TOU.html"
   },
   "icons": {
     "color": "color.png",
@@ -24,7 +24,7 @@
   "accentColor": "#64A2CC",
   "bots": [
     {
-      "botId": "<<Bot id>>",
+      "botId": "60df4d4b-0f4e-472c-8825-e212e0d88cc9",
       "scopes": [
         "team"
       ],
@@ -47,7 +47,7 @@
   ],
   "composeExtensions": [
     {
-      "botId": "<<Bot id>>",
+      "botId": "60df4d4b-0f4e-472c-8825-e212e0d88cc9",
       "canUpdateConfiguration": false,
       "commands": [
         {
@@ -112,6 +112,7 @@
     "messageTeamMembers"
   ],
   "validDomains": [
-    "<<valid domains>>"
+    "*.atticware.com",
+    "jv-remotesupport.azurewebsites.net"
   ]
 }
