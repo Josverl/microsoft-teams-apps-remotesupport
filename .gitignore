@@ -353,3 +353,4 @@ MigrationBackup/
 
 /Source/Microsoft.Teams.Apps.RemoteSupport/Properties/launchSettings.json
 /Source/Microsoft.Teams.Apps.RemoteSupport.Configuration/Properties/launchSettings.json
+.env.md
